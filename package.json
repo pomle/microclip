@@ -1,0 +1,11 @@
+{
+  "name": "microclip",
+  "version": "0.1.0",
+  "description": "A minimal copy to clipboard function.",
+  "main": "./src/copy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pontus Alexander <pontus.alexander@gmail.com>",
+  "license": "MIT"
+}
