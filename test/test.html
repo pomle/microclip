@@ -3,13 +3,12 @@
     <script src="../src/copy.js"></script>
 </head>
 <body>
-  <input size="48" />
   <button id="copy">Copy</button>
 
   <script type="text/javascript">
     var button = document.querySelector('#copy');
     button.addEventListener('click', () => {
-      microclip.copy('Text copied at ' + new Date().toISOString());
+      microclip.copy('Text copied at ' + new Date().toISOString() + '\nWith a newline.');
     });
   </script>
 </body>

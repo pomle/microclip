@@ -10,7 +10,7 @@
   function copy(text) {
     var doc = document,
         body = doc.body,
-        input = doc.createElement('input');
+        input = doc.createElement('textarea');
 
     input.style.position = 'absolute';
     input.style.top = '-100px';
