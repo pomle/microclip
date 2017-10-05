@@ -1,6 +1,6 @@
 {
   "name": "microclip",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A minimal copy to clipboard function.",
   "main": "./src/copy.js",
   "scripts": {
